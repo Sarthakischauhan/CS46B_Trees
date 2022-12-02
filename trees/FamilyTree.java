@@ -109,7 +109,7 @@ public class FamilyTree
 		// User chooses input file. This block doesn't need any work.
 		FileNameExtensionFilter filter = 
 			new FileNameExtensionFilter("Family tree text files", "txt");
-		File dirf = new File("./src/trees/BagginsFamilyTree.txt");
+		File dirf = new File("/Users/sarthak/learn/Homework/src/trees/BagginsFamilyTree.txt");
 		if (!dirf.exists())
 			dirf = new File(".");
 		JFileChooser chooser = new JFileChooser(dirf);
